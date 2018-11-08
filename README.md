@@ -39,3 +39,9 @@
       * ArticleAPI      : Contains all necassary API Details
       * Article         : Contains information of each article
       * ArticleResponse : Contains information of list of articles
+      
+      
+# Class Diagram
+
+![alt text](https://github.com/abdul-naveed/ADIB/blob/master/Class_Diagram.jpeg)
+
