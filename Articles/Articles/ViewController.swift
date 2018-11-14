@@ -92,7 +92,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func toggleDays(sender:Any) {
-        print("Values is \((sender as! UIStepper).value)")
         switch Int((sender as! UIStepper).value) {
         case 1:
             self.selectedDay = 1
@@ -125,7 +124,6 @@ extension ViewController : UITableViewDataSource {
     //Cell??
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ArticleRowViewCell", for: indexPath) as! ArticleRowViewCell
-        cell.artical = self.articleList?[indexPath.row]
         articleViewModal.configureRowView(articleRow: indexPath.row, view: cell)
         return cell
     }

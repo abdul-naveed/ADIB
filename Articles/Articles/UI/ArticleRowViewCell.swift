@@ -22,9 +22,6 @@ class ArticleRowViewCell: UITableViewCell {
     // Article Image
     @IBOutlet weak var imageLabel:UIImageView!
     
-    // Represented Modal
-    var artical : Article?
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         imageLabel.layer.borderWidth = 1
