@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Articles/Service Manager/ArticlesManager.swift"
-            timestampString = "563361320.9163949"
+            timestampString = "563888959.809375"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "120"
             endingLineNumber = "120"
-            landmarkName = "getMostPopularArticles(completionHandler:)"
+            landmarkName = "getMostPopularArticles(days:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Articles/Service Manager/ArticlesManager.swift"
-            timestampString = "563361320.916477"
+            timestampString = "563888959.80954"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "117"
             endingLineNumber = "117"
-            landmarkName = "getMostPopularArticles(completionHandler:)"
+            landmarkName = "getMostPopularArticles(days:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Articles/Service Manager/ArticlesManager.swift"
-            timestampString = "563361320.91654"
+            timestampString = "563888959.809649"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -58,13 +58,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Articles/Service Manager/ArticlesManager.swift"
-            timestampString = "563361320.916597"
+            timestampString = "563888959.809736"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "133"
             endingLineNumber = "133"
-            landmarkName = "getMostPopularArticles(completionHandler:)"
+            landmarkName = "getMostPopularArticles(days:completionHandler:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Articles/ViewController.swift"
+            timestampString = "563888959.809835"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "toggleDays(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Articles.ViewController.toggleDays(sender: Any) -&gt; ()"
+                  moduleName = "Articles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdulnaveedsoudagar/Desktop/ADIB-Assignment-Article/ADIB/Articles/Articles/ViewController.swift"
+                  timestampString = "563888071.52558"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Articles.ViewController.toggleDays(sender: Any) -&gt; ()"
+                  moduleName = "Articles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdulnaveedsoudagar/Desktop/ADIB-Assignment-Article/ADIB/Articles/Articles/ViewController.swift"
+                  timestampString = "563888071.528879"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "608">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
