@@ -111,8 +111,8 @@ struct ArticleResponse : Decodable
 typealias articlesCompletion = ( _ results:[Article]?,_ error:Error?) -> Void
 
 class ArticlesManager {
-    static func getMostPopularArticles(completionHandler: @escaping articlesCompletion) {
-        let url = URL(string:ArticleAPI.getMostPopularArticlesAPI(section: "all-sections", period: 7))
+    static func getMostPopularArticles(days:Int,completionHandler: @escaping articlesCompletion) {
+        let url = URL(string:ArticleAPI.getMostPopularArticlesAPI(section: "all-sections", period: days))
         let urlRequest = URLRequest(url:url!)
         let session = URLSession.shared
         let task = session.dataTask(with: urlRequest) { (data, response, error) in

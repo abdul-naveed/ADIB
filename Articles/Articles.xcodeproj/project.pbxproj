@@ -17,6 +17,7 @@
 		EF66FC792193B8C000BF68CA /* ArticleRowViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66FC772193B8C000BF68CA /* ArticleRowViewCell.swift */; };
 		EF66FC7A2193B8C000BF68CA /* ArticleRowViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF66FC782193B8C000BF68CA /* ArticleRowViewCell.xib */; };
 		EF66FC7D2193C67B00BF68CA /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66FC7C2193C67B00BF68CA /* ArticleDetailViewController.swift */; };
+		EFAA3479219C2B9400B68878 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAA3478219C2B9400B68878 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EF66FC772193B8C000BF68CA /* ArticleRowViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowViewCell.swift; sourceTree = "<group>"; };
 		EF66FC782193B8C000BF68CA /* ArticleRowViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleRowViewCell.xib; sourceTree = "<group>"; };
 		EF66FC7C2193C67B00BF68CA /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		EFAA3478219C2B9400B68878 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		EF66FC5221937ED100BF68CA /* Articles */ = {
 			isa = PBXGroup;
 			children = (
+				EFAA3476219C2B5D00B68878 /* ViewModel */,
 				EF66FC762193B89D00BF68CA /* UI */,
 				EF66FC73219383A400BF68CA /* Service Manager */,
 				EF66FC5321937ED100BF68CA /* AppDelegate.swift */,
@@ -130,6 +133,14 @@
 				EF66FC7C2193C67B00BF68CA /* ArticleDetailViewController.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		EFAA3476219C2B5D00B68878 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA3478219C2B9400B68878 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 				EF66FC5421937ED100BF68CA /* AppDelegate.swift in Sources */,
 				EF66FC792193B8C000BF68CA /* ArticleRowViewCell.swift in Sources */,
 				EF66FC75219383E700BF68CA /* ArticlesManager.swift in Sources */,
+				EFAA3479219C2B9400B68878 /* ViewModel.swift in Sources */,
 				EF66FC7D2193C67B00BF68CA /* ArticleDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

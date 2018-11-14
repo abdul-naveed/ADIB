@@ -33,22 +33,4 @@ class ArticleRowViewCell: UITableViewCell {
         imageLabel.layer.cornerRadius = imageLabel.frame.height/2
         imageLabel.clipsToBounds = true
     }
-    
-    // Function to update on UI
-    func updateRowModal() {
-        if let articalModel = artical {
-            if let title = articalModel.title {
-                self.titleLabel.text = title
-            }
-            
-            if let byline = articalModel.byline {
-                self.byLineLabel.text = byline
-            }
-            
-            if let date = articalModel.date {
-                self.dateLabel.text = date
-            }
-        }
-    }
-    
 }
