@@ -47,6 +47,6 @@
 
 # Screen Shots
 
-![alt text](https://github.com/abdul-naveed/ADIB/blob/master/UI-1.jpeg)
+![alt text](https://github.com/abdul-naveed/ADIB/blob/master/UI-1.png)
 
-![alt text](https://github.com/abdul-naveed/ADIB/blob/master/UI-2.jpeg)
+![alt text](https://github.com/abdul-naveed/ADIB/blob/master/UI-2.png)
