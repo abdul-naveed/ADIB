@@ -21,21 +21,24 @@ class ArticlesTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testArticles() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        
-    }
-    
-    func testPerformanceExample() {
-        // Put the code you want to measure the time of here.
-        let fetchExpectation = self.expectation(description: "Fetch Articles")
-        
-        ArticlesManager.getMostPopularArticles { (articles, error) in
-            XCTAssertTrue((articles?.count != 0), "Failed to fetch Articles")
-            fetchExpectation.fulfill()
+        let promise = expectation(description: "Status code: 200")
+        let viewModel = PopularArticlesViewModel()
+        viewModel.getArticles(days: 7) { (articles, error) in
+            if let articleList = articles {
+                if articleList.count > 0 {
+                    promise.fulfill()
+                }
+                else {
+                    XCTFail("Returned Zero Articles")
+                }
+            }
+            else {
+                XCTFail("View Model Failed to fetch response List")
+            }
         }
-        self.wait(for: [fetchExpectation], timeout: 10000)
+        waitForExpectations(timeout: 5, handler: nil)
     }
-    
 }
