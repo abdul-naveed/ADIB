@@ -45,3 +45,8 @@
 
 ![alt text](https://github.com/abdul-naveed/ADIB/blob/master/Class_Diagram.jpeg)
 
+# Screen Shots
+
+![alt text](https://github.com/abdul-naveed/ADIB/blob/master/UI-1.jpeg)
+
+![alt text](https://github.com/abdul-naveed/ADIB/blob/master/UI-2.jpeg)
