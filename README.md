@@ -45,6 +45,11 @@
 
 ![alt text](https://github.com/abdul-naveed/ADIB/blob/master/Class_Diagram.jpeg)
 
+
+# Code Coverage Report
+![alt text](https://github.com/abdul-naveed/ADIB/blob/master/Code-Coverage.png)
+
+
 # Screen Shots
 
 ![alt text](https://github.com/abdul-naveed/ADIB/blob/master/UI-1.png)
