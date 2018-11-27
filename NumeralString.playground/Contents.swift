@@ -1,7 +1,8 @@
 import UIKit
 
 // Code Review[Comments on Brief] :
-// PLEASE REMOVE FUNCTION TIMES, IT ISN"T EFFICIENT USE AN ARRAY INSTEAD WHICH WILL HAVE SET OF SYMBOLS WITH THERE BASE VALUES
+// PLEASE REMOVE FUNCTION TIMES, IT ISN"T EFFICIENT USE AN ARRAY INSTEAD WHICH WILL HAVE SET OF SYMBOLS WITH THERE BASE VALUES,
+// SINCE THE MAX_VALUE IS OF 4 DIGIT
 // Code Review[Comments] : Why do we need a seprate class called RomanNumber
 //                         We can add extension to the Number itself rather creating a seprate class
 //                         So that it could have been used with number it self.
